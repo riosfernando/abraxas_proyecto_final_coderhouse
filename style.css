@@ -1,0 +1,115 @@
+* {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Comfortaa', cursive;
+    line-height: 150%;
+}
+
+.header_image {
+    width: 60%;
+    margin: 10px;
+}
+
+h1 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:space-around
+}
+
+#h1_logo {
+    width: 20%;
+}
+
+#novedades, #videos, #fotos, #fechas, #littlemagicmusicbox {
+    color: red;
+    background-color: aliceblue;
+}
+
+nav {
+    text-align: left;
+    border: 3px solid;
+    border-color: firebrick;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.menu-navegacion {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+
+article {
+    border-color: aliceblue;
+    border: 2px solid;
+    padding: 20px 20px;
+    margin: 15px 15px;
+}
+
+
+h3 {
+    background-color: white;
+    color: firebrick;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+p {
+    font-size: 85%;
+}
+
+#article_left {
+    width: 40%;
+}
+
+#article_right {
+    width: 40%;
+}
+
+img {
+    width: 40%;
+}
+
+.image-novedades {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+#novedades {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: white;
+}
+
+#social_media {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.image_social_media {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
