@@ -5,6 +5,8 @@
     line-height: 150%;
 }
 
+
+/* INICIO HEADER */
 .header_image {
     width: 60%;
     margin: 10px;
@@ -22,26 +24,42 @@ h1 {
 #h1_logo {
     width: 20%;
 }
+/* FIN HEADER */
 
-#novedades, #videos, #fotos, #fechas, #littlemagicmusicbox {
+
+/* INICIO NAVBAR */
+#grilla_novedades, #grilla_fotos, #grilla_videos, #grilla_fechas, #grilla_littlemagic {
+    display: grid;
+    grid-area: navbar;
+    grid-template-rows: 100px;
+    grid-template-columns: 150px 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid firebrick;
+    text-decoration: none;
+}
+
+#logo_navbar {
+    width: 60%;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+#novedades, #videos, #fotos, #fechas, #littlemagic {
     color: red;
     background-color: aliceblue;
 }
+/* FIN NAVBAR */
 
-nav {
-    text-align: left;
-    border: 3px solid;
-    border-color: firebrick;
-    border-radius: 6px;
-    margin-bottom: 20px;
-}
 
-.menu-navegacion {
+/* INICIO NOVEDADES */
+#novedades {
+    margin-top: 15px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-around;
-    list-style-type: none;
 }
-
 
 article {
     border-color: aliceblue;
@@ -49,7 +67,6 @@ article {
     padding: 20px 20px;
     margin: 15px 15px;
 }
-
 
 h3 {
     background-color: white;
@@ -85,14 +102,10 @@ img {
 strong {
     text-decoration: underline;
 }
+/* FIN NOVEDADES */
 
-#novedades {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
+/* INICIO FOOTER */
 footer {
     background-color: white;
 }
@@ -113,3 +126,4 @@ footer {
     flex-wrap: wrap;
     justify-content: flex-end;
 }
+/* FIN FOOTER */
