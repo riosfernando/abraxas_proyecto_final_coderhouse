@@ -105,13 +105,13 @@ strong {
 /* FIN NOVEDADES */
 
 
-/* RESPONSIVE INFRAME */
+/* RESPONSIVE IFRAME */
 .container {
     position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-  }
+}
   
   .responsive-iframe {
     position: absolute;
@@ -121,8 +121,8 @@ strong {
     right: 0;
     width: 100%;
     height: 100%;
-  }
-/* RESPONSIVE INFRAME */
+}
+/* RESPONSIVE IFRAME */
 
 /* INICIO FOOTER */
 footer {
