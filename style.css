@@ -49,6 +49,10 @@ h1 {
     color: red;
     background-color: aliceblue;
 }
+
+.animacion_navbar:hover {
+    transform: scale(1.5);
+}
 /* FIN NAVBAR */
 
 
