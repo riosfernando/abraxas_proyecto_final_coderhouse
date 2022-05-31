@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,21 +28,35 @@
         <img class="header_image" src="multimedia/imagenes/la_banda.jpg" alt="los miembros de la banda">
         </h1>
     </header>
-    <!-- Fin Header -->    
+    <!-- Fin Header -->
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fotos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novedades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Little magic music box</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Fechas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
     
         
-    <!-- Inicio Navegable Novedades -->
-    <section id="grilla_novedades">
-        <a href="#h1_logo"> <img id="logo_navbar" src="multimedia/imagenes/abraxas_logo_completo.jpg" alt="inicio"> </a>
-        <a href="#grilla_videos">Videos</a>
-        <a href="#grilla_fotos">Fotos</a>
-        <p id="novedades">Novedades</p>
-        <a href="#grilla_fechas">Fechas</a>
-        <a href="#grilla_littlemagic">Little magic music box</a>
-    </section>
-    <!-- Fin Navegable Novedades -->
-
-
     <!-- Inicio Novedades -->
     <section id="novedades">
         <article id="article_left">
@@ -290,6 +307,6 @@
     </footer>
     <!-- Fin Footer -->
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

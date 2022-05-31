@@ -26,6 +26,12 @@ h1 {
 }
 /* FIN HEADER */
 
+/* INICIO NAVBAR BOOTSTRAP */
+#navbar_bt {
+    color: aliceblue;
+}
+/* FIN NAVBAR BOOTSTRAP */
+
 
 /* INICIO NAVBAR */
 #grilla_novedades, #grilla_fotos, #grilla_videos, #grilla_fechas, #grilla_littlemagic {
