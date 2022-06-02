@@ -108,6 +108,33 @@ strong {
 }
 /* FIN NOVEDADES */
 
+/* INICIO FOTOS */
+
+#fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid_fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 10px 10px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid_fotos_item {
+    width: 100%;
+    
+}
+
+/* FIN FOTOS */
+
 /* INICIO FECHAS */
 .fechas {
     display: flex;
@@ -122,7 +149,6 @@ strong {
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 56.25%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -135,6 +161,7 @@ iframe {
     margin: 10px 10px 10px 10px;
 }
 /* RESPONSIVE IFRAME */
+
 
 /* INICIO FOOTER */
 footer {
