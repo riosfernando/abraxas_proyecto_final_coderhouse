@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="style.css">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,46 +44,67 @@
 
     <!-- Inicio Novedades -->
     <section id="novedades">
-        <article id="article_left">
-            <img src="multimedia/imagenes/larengalogo.png" alt="logo la renga" class="image-novedades">
-            <h3>La Renga en Córdoba</h3>
-            <p>
-                La Renga finalmente concretó su esperado regreso a los escenarios en Santa María de Punilla, Córdoba. Fue el sábado 26 de Febrero ante <em>más de 60.000 personas</em> que viajaron desde distintos puntos de la Argentina. Este show dio inicio a la gira de presentación de su nuevo disco “Alejado de la red". Las entradas estaban totalmente agotadas desde la semana anterior.
-                <em><q>No nos bajan más del escenario, vamos a tocar sin parar</q></em>, lanzó Gustavo “Chizzo” Napoli visiblemente emocionado. Con una puesta imponente que exhibe un escenario de 82 metros de frente, La Renga tocó un total de 29 temas, abriendo con “Buena Pipa” de su flamante material y se despidió con su clásico cierre: “Hablando de la Libertad”. Tocaron 7 temas del reciente álbum y la lista se completó con clásicos como “A la carga mi rocanrol”, “El final es donde partí”, y “El viento que todo empuja” entre otros.
-                Sobre el final de la noche, el grupo dedicó un homenaje a Norberto Napolitano con su tema “Viva Pappo” al cumplirse un nuevo aniversario de su muerte (25 de febrero).
-            </p>
-        </article>
-
-        <article id="article_right">
-            <img src="multimedia/imagenes/gunsnroseslogo.png" alt="logo guns and roses" class="image-novedades">
-            <h3>Nuevas fechas Guns 'N' Roses</h3>
-            <p>
-                Luego que una pandemia frenara la llegada de Guns N’ Roses a Sudamérica en 2020, por fin tenemos buenas noticias para todos los fans que esperaban el regreso de la banda de hard rock a este lado del mundo. Además, vendrán acompañados de la banda mexicana Molotov.
-                Axl Rose, Slash y Duff McKagan vuelven con un nuevo nombre para su tour, “We're F'N Back!” Antes de que postergaran su gira, el nombre que recibía era "Not in This Lifetime Tour".
-                Mirá todas las fechas <a href="https://www.gunsnroses.com/tour#17">acá</a>.
-            </p>            
-        </article>
-
-        <article id="article_left">
-            <img src="multimedia/imagenes/ff_logo_svg.png" alt="logo foo fighters" class="image-novedades">
-            <h3>Duelo en el mundo del rock</h3>
-            <p>
-                Foo Fighters comunicó en la noche del viernes 25 de marzo el fallecimiento de su baterista, Taylor Hawkins. Tenía 50 años y se encontraba en Bogotá, Colombia, donde la banda iba a presentarse en el festival Estéreo Picnic. No se ha dado a conocer la causa del deceso.
-                “La familia de Foo Fighters se encuentra devastada por la trágica e inesperada pérdida de nuestro amado Taylor Hawkins. Su espíritu musical y risa contagiosa vivirán con nosotros por siempre", empieza el comunicado de Foo Fighters. “Enviamos nuestras condolencias a su esposa, hijos y familiares, y pedimos que su privacidad sea tratada con el mayor de los respetos en este tiempo inimaginablemente difícil”.
-                La banda liderada por Dave Grohl se encontraba realizando una gira por Latinoamérica para presentar su disco del año pasado, Medicine at Midnight. La última presentación ocurrió el pasado fin de semana en el Lollapalooza Argentina, después de haber pasado por la edición chilena del festival y de un show en el Foro Sol de Ciudad México. Después de su paso por el Hipódromo de San Isidro, la banda se dirigió a Paraguay para presentarse en el festival Asunciónico, que finalmente se canceló por las fuertes lluvias. Antes de su presentación en el festival Estéreo Picnic de Colombia, prevista para la noche del viernes, la banda comunicó la cancelación del resto de su gira latinoamericana que incluía una última parada en el Lollapalooza Brasil. Luego, la agenda incluía una presentación en la gala de los Grammys (3 de abril) y una serie de conciertos por Norteamérica a partir de mayo.
-                Hawkins nació en Dallas, Texas y se crió en California. Antes de unirse a Foo Fighters en 1997, fue el baterista de Alanis Morissette durante dos años. Reemplazó al baterista original de Foo Fighters, William Goldsmith, cuando la banda terminó la gira del disco The Colour and the Shape. En 2004, formó el proyecto Taylor Hawkins and the Coattail Riders, donde tocaba la batería y cantaba, y con la que editó tres discos. También fue parte de la banda experimental Sylvia y editó un EP solista, Kota (2016).
-            </p>
-        </article>
-
-        <article id="article_right">
-            <img src="multimedia/imagenes/acdc.jpg" alt="AC DC" class="image-novedades">
-            <h3>Inmortales</h3>
-            <p>
-                Están de vuelta. Los australianos más queridos del hard rock han regresado para alborotar a todo el público rockero, AC/DC acaba de estrenar una nueva canción titulada “Shot In The Dark”. Este tema es un adelanto de ‘PWR/UP‘, álbum que verá la luz el 13 de noviembre de este año y que sin duda promete hacerte agitar la cabeza desde la comodidad de tu hogar.
-                Después de toda la expectativa que ha generado la banda por el reencuentro con antiguos integrantes, por fin llegó el día en que podremos escucharlos juntos nuevamente y sentir la energía que transmite AC/DC.
-                Viví el nuevo video <a href="https://youtu.be/54LEywabkl4">acá</a>.
-            </p>
-        </article>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <img src="multimedia/imagenes/larengalogo.png" alt="logo la renga" class="image-novedades">
+                    La Renga en Córdoba
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>La Renga finalmente concretó su esperado regreso a los escenarios en Santa María de Punilla, Córdoba.</strong> Fue el sábado 26 de Febrero ante <em>más de 60.000 personas</em> que viajaron desde distintos puntos de la Argentina. Este show dio inicio a la gira de presentación de su nuevo disco “Alejado de la red". Las entradas estaban totalmente agotadas desde la semana anterior.
+                  <em><q>No nos bajan más del escenario, vamos a tocar sin parar</q></em>, lanzó Gustavo “Chizzo” Napoli visiblemente emocionado. Con una puesta imponente que exhibe un escenario de 82 metros de frente, La Renga tocó un total de 29 temas, abriendo con “Buena Pipa” de su flamante material y se despidió con su clásico cierre: “Hablando de la Libertad”. Tocaron 7 temas del reciente álbum y la lista se completó con clásicos como “A la carga mi rocanrol”, “El final es donde partí”, y “El viento que todo empuja” entre otros.
+                  Sobre el final de la noche, el grupo dedicó un homenaje a Norberto Napolitano con su tema “Viva Pappo” al cumplirse un nuevo aniversario de su muerte (25 de febrero).
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <img src="multimedia/imagenes/gunsnroseslogo.png" alt="logo guns and roses" class="image-novedades">
+                    Nuevas fechas Guns 'N' Roses
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Luego que una pandemia frenara la llegada de Guns N’ Roses a Sudamérica en 2020,</strong> por fin tenemos buenas noticias para todos los fans que esperaban el regreso de la banda de hard rock a este lado del mundo. Además, vendrán acompañados de la banda mexicana Molotov.
+                  Axl Rose, Slash y Duff McKagan vuelven con un nuevo nombre para su tour, “We're F'N Back!” Antes de que postergaran su gira, el nombre que recibía era "Not in This Lifetime Tour".
+                  Mirá todas las fechas <a href="https://www.gunsnroses.com/tour#17">acá</a>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <img src="multimedia/imagenes/ff_logo_svg.png" alt="logo foo fighters" class="image-novedades">
+                    Duelo en el mundo del rock
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Foo Fighters comunicó en la noche del viernes 25 de marzo el fallecimiento de su baterista, Taylor Hawkins.</strong> Tenía 50 años y se encontraba en Bogotá, Colombia, donde la banda iba a presentarse en el festival Estéreo Picnic. No se ha dado a conocer la causa del deceso.
+                  “La familia de Foo Fighters se encuentra devastada por la trágica e inesperada pérdida de nuestro amado Taylor Hawkins. Su espíritu musical y risa contagiosa vivirán con nosotros por siempre", empieza el comunicado de Foo Fighters. “Enviamos nuestras condolencias a su esposa, hijos y familiares, y pedimos que su privacidad sea tratada con el mayor de los respetos en este tiempo inimaginablemente difícil”.
+                  La banda liderada por Dave Grohl se encontraba realizando una gira por Latinoamérica para presentar su disco del año pasado, Medicine at Midnight. La última presentación ocurrió el pasado fin de semana en el Lollapalooza Argentina.
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <img src="multimedia/imagenes/acdc.jpg" alt="AC DC" class="image-novedades">
+                    Inmortales
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>Están de vuelta.</strong> Los australianos más queridos del hard rock han regresado para alborotar a todo el público rockero, AC/DC acaba de estrenar una nueva canción titulada “Shot In The Dark”. Este tema es un adelanto de ‘PWR/UP‘, álbum que verá la luz el 13 de noviembre de este año y que sin duda promete hacerte agitar la cabeza desde la comodidad de tu hogar.
+                    Después de toda la expectativa que ha generado la banda por el reencuentro con antiguos integrantes, por fin llegó el día en que podremos escucharlos juntos nuevamente y sentir la energía que transmite AC/DC.
+                    Viví el nuevo video <a href="https://youtu.be/54LEywabkl4">acá</a>.
+                  </div>
+                </div>
+            </div>
+          </div>
     </section>
     <!-- Fin sección Novedades -->
 
@@ -240,5 +263,7 @@
         
     </footer>
     <!-- Fin Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
