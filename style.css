@@ -63,24 +63,25 @@ h1 {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    background-color: black;
 }
 
-article {
-    border-color: aliceblue;
-    border: 2px solid;
-    padding: 20px 20px;
-    margin: 15px 15px;
-}
-
-h3 {
-    background-color: white;
+.accordion-button {
+    background-color: black;
     color: firebrick;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 50%;
 }
 
-p {
+.accordion-body {
     font-size: 85%;
+    line-height: 170%;
+}
+
+.p_propio {
+    margin-left: 10px;
+    font-size: 150%;
+    color: firebrick;
 }
 
 #article_left {
