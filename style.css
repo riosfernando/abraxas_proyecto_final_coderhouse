@@ -28,30 +28,36 @@ h1 {
 
 
 /* INICIO NAVBAR */
-#grilla_novedades, #grilla_fotos, #grilla_videos, #grilla_fechas, #grilla_littlemagic {
-    display: grid;
-    grid-area: navbar;
-    grid-template-rows: 100px;
-    grid-template-columns: 150px 1fr 1fr 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    border: 2px solid firebrick;
-    text-decoration: none;
+#navbar {
+    position: sticky;
+    top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 2px;
+    border-color: firebrick;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    z-index: 3;
+    color: aliceblue;
+    list-style: none;
 }
 
-#logo_navbar {
-    width: 60%;
-    padding-left: 25px;
-    padding-top: 5px;
-}
-
-#novedades, #videos, #fotos, #fechas, #littlemagic {
+#navbar_boton {
     color: red;
     background-color: aliceblue;
 }
 
-.animacion_navbar:hover {
-    transform: scale(1.5);
+#animacion_navbar:hover {
+    transform: scale(1.2);
+    color: aliceblue;
+    background-color: firebrick;
+}
+
+#animacion_navbar {
+    padding: 10px;
 }
 /* FIN NAVBAR */
 
