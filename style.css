@@ -93,7 +93,7 @@ h1 {
 }
 
 img {
-    width: 40%;
+    width: 100%;
 }
 
 .image-novedades {
@@ -111,27 +111,23 @@ strong {
 
 /* INICIO FOTOS */
 
-#fotos {
+.grid_container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.grid_fotos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-content: center;
-    margin: 10px 10px 10px 10px;
-    justify-items: center;
-    align-items: center;
+.item_fotos {
+    width: 100%;
 }
 
-.grid_fotos_item {
-    width: 100%;
-    
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* FIN FOTOS */
