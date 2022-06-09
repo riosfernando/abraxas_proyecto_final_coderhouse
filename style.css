@@ -143,10 +143,14 @@ strong {
 }
 /* FIN FECHAS */
 
-.videos-item:hover, .fechas-item:hover, .little-magic:hover {
+
+/* PSEUDO CLASES */
+.videos-item:hover, .fechas-item:hover, .little-magic:hover, .image_social_media:hover {
     transform: scale(120%);
     z-index: 4;
 }
+/* PSEUDO CLASES */
+
 
 
 /* RESPONSIVE IFRAME */
@@ -174,19 +178,27 @@ footer {
 }
 
 #social_media {
+    list-style: none;
     background-color: white;
+    align-content: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+}
+
+#social-media-item {
+    background-color: white;
+}
+
+#social-media-parrafo {
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .image_social_media {
-    background-color: white;
     width: 20%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    background-color: white;
 }
 /* FIN FOOTER */
