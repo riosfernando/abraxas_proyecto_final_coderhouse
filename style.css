@@ -28,9 +28,13 @@ h1 {
 
 
 /* INICIO NAVBAR */
-#navbar {
+nav {
     position: sticky;
     top: 0px;
+    z-index: 4;
+}
+
+#navbar {
     padding-top: 10px;
     padding-bottom: 10px;
     border: solid 2px;
@@ -40,14 +44,8 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    z-index: 4;
     color: aliceblue;
     list-style: none;
-}
-
-#navbar_boton {
-    color: red;
-    background-color: aliceblue;
 }
 
 #animacion_navbar:hover {
@@ -131,6 +129,10 @@ strong {
     align-items: center;
     justify-content: space-around;
 }
+
+.item_fotos:hover {
+    transform: scale(130%, 130%);
+}
 /* FIN FOTOS */
 
 /* INICIO FECHAS */
@@ -140,6 +142,11 @@ strong {
     align-items: center;
 }
 /* FIN FECHAS */
+
+.videos-item:hover, .fechas-item:hover, .little-magic:hover {
+    transform: scale(120%);
+    z-index: 4;
+}
 
 
 /* RESPONSIVE IFRAME */
