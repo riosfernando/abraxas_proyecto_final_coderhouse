@@ -5,6 +5,11 @@
     line-height: 150%;
 }
 
+body {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
 
 /* INICIO HEADER */
 .header_image {
